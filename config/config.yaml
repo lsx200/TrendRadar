@@ -99,3 +99,7 @@ platforms:
     name: "抖音"
   - id: "zhihu"
     name: "知乎"
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:  # 新增这行，用于手动触发
